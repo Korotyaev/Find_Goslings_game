@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="./scorpion.png">
+        <link rel="stylesheet" href="2lvl.css">
+        <script src="2lvl.js"></script>
+    </head>     
+<body>
+    <div id="shadow">
+        <div id="menu">
+            <H1>Wanted!</H1>
+            <img style="height: 300px;" src="../1lvl/wanted.jpg">
+            <H1>Лови его!</H1>
+            <button id="play_button" onclick="showMenu()"> PLAY! </button>
+        </div>
+    </div>
+    <div id="shadow_end_lvl" class="off_target">
+        <div id="menu">
+            <H1>Смотри!</H1>
+            <img style="height: 300px;" src="../1lvl/happy_gosling.jpg">
+            <H1>Довольный!</H1>
+            <a href="C:\Users\User\Documents\Development\find_Goslings\3lvl\3lvl.html">
+                <button id="play_button"> NEXT! </button>
+            </a>
+        </div>
+    </div>
+    <div id="shadow_failed_lvl" class="off_target">
+        <div id="menu">
+            <H1>Ну ты чего?!</H1>
+            <img style="height: 300px;" src="./failed_lvl.gif">
+            <H1>Не тот Райан!</H1>
+            <button id="play_button" onClick="window.location.reload();"> RETRY! </button>
+        </div>
+    </div>
+    <div id="game" class="off_target">
+        <audio id="music" src="../1lvl/drive.mp3" type="audio/mpeg" autoplay loop></audio>
+        <h1 id="score"> Вы поймали Гослингов: 0</h1>
+        <div id="board"></div>
+    </div>
+</body>
+</html>
