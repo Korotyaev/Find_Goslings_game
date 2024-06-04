@@ -1,32 +1,20 @@
 <html>
     <head>
         <link rel="icon" type="image/png" href="./scorpion.png">
-        <link rel="stylesheet" href="1lvl.css">
-        <script src="1lvl.js"></script>
+        <link rel="stylesheet" href="index.css">
     </head>     
 <body>
-    <div id="shadow">
+    <div id="main_menu">
         <div id="menu">
-            <H1>Wanted!</H1>
-            <img style="height: 300px;" src="./wanted.jpg">
-            <H1>Лови его!</H1>
-            <button id="play_button" onclick="showMenu()"> PLAY! </button>
-        </div>
-    </div>
-    <div id="shadow_end_lvl" class="off_target">
-        <div id="menu">
-            <H1>Смотри!</H1>
-            <img style="height: 300px;" src="./happy_gosling.jpg">
-            <H1>Довольный!</H1>
-            <a href="..\2lvl\2lvl.html">
-                <button id="play_button"> NEXT! </button>
+            <H1 style="margin: auto;">Поймай всех Гослингов</H1>
+            <span style="margin: auto;">
+                После очередного актерского перфоманса Райан проснулся с амнезией.
+                Теперь вам предстоит собрать его образы и не ошибиться!
+            </span>
+            <a href="..\Find_Goslings_game\1lvl\1lvl.html" style="margin: auto;">
+                <button id="play_button"> PLAY! </button>
             </a>
         </div>
-    </div>
-    <div id="game" class="off_target">
-        <audio id="music" src="./drive.mp3" type="audio/mpeg" autoplay loop></audio>
-        <h1 id="score"> Вы поймали Гослингов: 0</h1>
-        <div id="board"></div>
     </div>
 </body>
 </html>
