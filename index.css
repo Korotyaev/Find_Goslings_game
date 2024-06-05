@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background: cadetblue;;
+    background: no-repeat url("../Find_Goslings_game/1lvl/bckgrnd.jpg");
     margin: 0;
 }
 
