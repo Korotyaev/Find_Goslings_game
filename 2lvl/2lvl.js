@@ -38,7 +38,7 @@ function SetThing(){
     }
 
     let thing = document.createElement("img");
-    thing.src = "../1lvl/thing.jpeg";
+    thing.src = "./rg_theniceguys.jpg";
     
     let num = getRandomTile();
     if (currnotGosling && currThing.id == num) {
